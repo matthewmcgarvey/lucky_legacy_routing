@@ -7,6 +7,7 @@ private class InferRoute
   def initialize(@action_class_name : String, @nested_route : Bool)
   end
 
+  # add_route is provided by Lucky::Routable
   def generate_inferred_route
     <<-ROUTE_CODE
     add_route :#{http_method},
