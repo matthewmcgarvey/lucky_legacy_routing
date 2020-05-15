@@ -1,6 +1,6 @@
 # lucky_legacy_routing
 
-TODO: Write a description here
+Adds `route` and `nested_route` back to Lucky.
 
 ## Installation
 
@@ -17,14 +17,10 @@ TODO: Write a description here
 ## Usage
 
 ```crystal
-require "lucky_legacy_routing"
+require "lucky_legacy_routing/extensions"
 ```
 
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
+Then you should be able to use the methods as expected.
 
 ## Contributing
 

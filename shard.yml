@@ -7,3 +7,8 @@ authors:
 crystal: 0.34.0
 
 license: MIT
+
+dependencies:
+  wordsmith:
+    github: luckyframework/wordsmith
+    version: ~> 0.2
