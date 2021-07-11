@@ -76,7 +76,6 @@ module LuckyLegacyRouting
     infer_route(has_parent: true)
   end
 
-
   # :nodoc:
   macro infer_route(has_parent = false)
     {{ run "./run_macros/infer_route", @type.name, has_parent }}

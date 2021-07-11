@@ -10,7 +10,6 @@ class BaseAction
   end
 
   def self.setup_call_method(arg)
-
   end
 end
 
