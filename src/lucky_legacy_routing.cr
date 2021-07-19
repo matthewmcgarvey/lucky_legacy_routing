@@ -1,5 +1,5 @@
 module LuckyLegacyRouting
-  VERSION = "0.1.1"
+  VERSION = "0.1.2"
 
   # Define a nested route that responds to the appropriate HTTP request
   # automatically
